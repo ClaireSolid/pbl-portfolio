@@ -255,18 +255,18 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
         // 1.1 PROFILE & BRANDING VARIABLES (REQUIRED)
         const profileData = {
-            studentName: "Riley Cardinal",
-            tagline: "Future-Focused Problem Solver in Digital Media",
-            currentYear: "Sophomore", // Freshman, Sophomore, Junior, Senior
-            major: "Computer Science & Digital Media",
-            gpa: 3.85,
-            impactScoreMultiplier: 10, // Adjusts how much projects/awards count towards total impact
+            studentName: "Claire Solid",
+            tagline: "Student at Ball State University",
+            currentYear: "Freshman"
+            major: "Marketing",
+            gpa: 3.75,
+            impactScoreMultiplier: 2, // Adjusts how much projects/awards count towards total impact
             
             // --- INTRODUCTION & BRANDING FIELDS ---
-            photoUrl: "https://placehold.co/150x150/BA0C2F/FFFFFF/png?text=RILEY+C", // Replace with a URL to a professional headshot
-            logoUrl: "https://placehold.co/40x40/BA0C2F/FFFFFF.png?text=BSU", // URL for your school logo or personal brand icon
-            personalBio: "I am a sophomore driven by the intersection of computational thinking and creative design. My academic focus is on building scalable, user-centric web applications and leveraging data analysis to inform design decisions. I believe in continuous learning and applying classroom theory to immediate, impactful real-world challenges.",
-            missionStatement: "To build digital solutions that simplify complex processes and empower small businesses, leveraging Python, front-end frameworks, and a user-first design approach.",
+            photoUrl: "https://drive.google.com/file/d/1dcwJDERK-24XvyfbJ3JvVAjKiXOIFFTp/view?usp=sharing", // Replace with a URL to a professional headshot
+            logoUrl: "https://www.google.com/imgres?q=ball%20state%20logo&imgurl=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2020%2F06%2FBall-State-Cardinals-Logo.png&imgrefurl=https%3A%2F%2Flogos-world.net%2Fball-state-cardinals-logo%2F&docid=HLkagS5U8gPbbM&tbnid=-MA_1MFD2BLfRM&vet=12ahUKEwjem-efxeaQAxV46ckDHTZWC-oQM3oECBUQAA..i&w=3840&h=2160&hcb=2&ved=2ahUKEwjem-efxeaQAxV46ckDHTZWC-oQM3oECBUQAA", // URL for your school logo or personal brand icon
+            personalBio: "I’m a freshman passionate about the intersection of marketing strategy, data-driven insights, and creative storytelling. My academic focus is on understanding consumer behavior, using analytics to guide decision-making, and crafting engaging digital campaigns that connect brands with their audiences. I value continuous learning and enjoy applying classroom concepts to real-world marketing challenges.",
+            missionStatement: "To create impactful marketing strategies that help small businesses grow—combining data analysis, digital tools, and a customer-first mindset to turn insights into action.",
         };
 
         /*
@@ -279,46 +279,46 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
         // 1.2 ACADEMICS (REQUIRED: Add relevant classes)
         const academicData = [
-            { name: "Intro to Python Programming", grade: "A", semester: "Fall 2024", relevance: "Code" },
-            { name: "Digital Design Principles", grade: "A-", semester: "Fall 2024", relevance: "Design" },
-            { name: "Calculus I", grade: "B+", semester: "Fall 2024", relevance: "Foundational" },
-            { name: "Web Development (Front-End)", grade: "A", semester: "Spring 2025", relevance: "Code" },
-            { name: "Data Structures", grade: "In Progress", semester: "Current", relevance: "Code" },
+            { name: "Economics", grade: "A", semester: "Fall 2024", relevance: "Code" },
+            { name: "ISOM", grade: "A-", semester: "Fall 2024", relevance: "Design" },
+            { name: "Business Analytics", grade: "B+", semester: "Fall 2024", relevance: "Foundational" },
+            { name: "Intro to Miller College of Business", grade: "A", semester: "Spring 2025", relevance: "Code" },
+            { name: "English", grade: "In Progress", semester: "Current", relevance: "Code" },
         ];
 
         // 1.3 PROJECTS (REQUIRED: Follow C-S-R format)
         const projectData = [
             {
-                title: "Local Charity Website Redesign",
-                category: "Design",
-                challenge: "The local Humane Society site was not mobile-friendly, resulting in high bounce rates on the donation page.",
-                solution: "Designed and implemented a responsive, user-centered interface using HTML, Tailwind CSS, and vanilla JS.",
-                result: "Increased mobile conversion rate by **15%** and reduced bounce rate by **22%** in the first month.",
-                link: "https://github.com/riley/charity-site"
+                title: "Campus Event Promotion Campaign",
+                category: "Marketing",
+                challenge: "Many students were unaware of upcoming campus events, leading to low attendance.",
+                solution: "Created a social media marketing plan using Instagram Reels and email newsletters to increase engagement.",
+                result: "Boosted event attendance by 30% and social media reach by 45% in two weeks.",
+                link: "https://github.com/claire/event-campaign"
             },
             {
-                title: "Twitter Sentiment Analyzer (Academic)",
-                category: "Code",
-                challenge: "Required to analyze public sentiment towards a political topic using programming tools for a final project.",
-                solution: "Used Python (Pandas/Matplotlib) to clean data and built a basic Naive Bayes classification model.",
-                result: "Achieved **82%** accuracy in classifying positive/negative tweets, earning the highest grade in the class (A).",
-                link: ""
+                title: "Small Business Branding Project",
+                category: "Design & Marketing",
+                challenge: "A local coffee shop had no clear brand identity, which made it hard to stand out.",
+                solution: "Developed a new logo, color palette, and digital marketing plan focusing on local community appeal.",
+                result: "Improved customer recognition and increased Instagram followers by 50% in one month.",
+                link: "https://github.com/claire/branding-project"
             },
             {
-                title: "3D Planet Rendering",
-                category: "Code/Personal",
-                challenge: "A personal challenge to learn a new visualization library (three.js) over winter break.",
-                solution: "Created a simple animated model of a rotating planet using three.js, demonstrating coordinate system mastery.",
-                result: "Successfully rendered complex geometry and optimized the animation loop to maintain **60 FPS** on desktop browsers.",
-                link: "https://riley.github.io/planet-render"
+                title: "Student Survey Data Analysis",
+                category: "Data & Marketing Insights",
+                challenge: "The student organization wanted to understand what motivates students to attend events.",
+                solution: "Collected and analyzed survey data using Google Sheets and basic Python tools to identify key trends.",
+                result: "Helped tailor marketing messages, leading to a 20% increase in event sign-ups.",
+                link: "https://github.com/claire/survey-analysis"
             }
         ];
 
         // 1.4 EXPERIENCE & AWARDS (REQUIRED)
         const recognitionData = {
             experience: [
-                { title: "Team Lead, Ball State Hackathon", type: "Extracurricular", duration: "Oct 2025", detail: "Led a four-person team to develop a functional prototype in **24 hours**." },
-                { title: "Library Volunteer (IT Support)", type: "Community Service", duration: "Jan - May 2025", detail: "Provided **40+ hours** of technical support for public computers and staff devices." },
+                { title: "Team Captain", type: "High School Cheer Team", duration: "Aug 2024 - May 2025", detail: "Captain of varsity and junior varsity squads" },
+                { title: "Student Volunteer", type: "Community Service", duration: "Jan - May 2025", detail: "Provided **40+ hours** of community support for public events and school events." },
             ],
             awards: [
                 { title: "Dean's List", duration: "Fall 2024", detail: "Achieved a **3.8 GPA**." },
@@ -576,3 +576,4 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     </script>
 </body>
 </html>
+
